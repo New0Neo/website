@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main {
+    margin: 20px 0;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+    font-family: "Monospace", Times, serif;
+}
+
+.p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p4 {
+    color: #333;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.read-more-content {
+    display: none;
+}
+
+.read-more-btn {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.parallax-1 {
+    background-image: url('https://via.placeholder.com/1200x800');
+}
+
+.parallax-2 {
+    background-image: url('https://via.placeholder.com/1200x800/cccccc');
+}
+
+.parallax-3 {
+    background-image: url('https://via.placeholder.com/1200x800/aaaaaa');
+}
